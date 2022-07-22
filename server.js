@@ -29,7 +29,7 @@ const upload=multer({
 
 
 
-mongoose.connect("mongodb+srv://pranav:pranav123@cluster0.bwlqe7i.mongodb.net/myinsta-p?retryWrites=true&w=majority",()=>{
+mongoose.connect("mongodb+srv://pranav:pranav123@cluster0.bwlqe7i.mongodb.net/myinsta-pranav?retryWrites=true&w=majority",()=>{
     console.log("connected to db")
 },(err)=>{
     console.log(err)
