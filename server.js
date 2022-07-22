@@ -73,11 +73,11 @@ app.get("/",(req,res)=>{
     }
 })
 
-// const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 
-// app.listen(port, function() {
-//     console.log("Server started.......on",port);
-// });
-app.listen(3003,()=>{
-    console.log("server is running")
-  });
+app.listen(port, function() {
+    console.log("Server started.......on",port);
+});
+// app.listen(3003,()=>{
+//     console.log("server is running")
+//   });
