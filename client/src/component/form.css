@@ -1,0 +1,26 @@
+.add{
+    border: 1px solid black;
+    width: 40%;
+    margin-left: 360px;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  #city{
+    margin-left: 100px;
+    width: 40%;
+  }
+  #prof{
+    width: 98%;
+  }
+  #file{
+    width: 100%;
+    border: 1px solid black;
+    background: none;
+    color:gray
+    
+  }
+  button{
+   margin-left: 38%;
+   width: 20%;
+   color: grey;
+  }
